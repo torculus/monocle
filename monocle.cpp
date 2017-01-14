@@ -31,8 +31,8 @@ int main(int argc, char *argv[]) {
 	window.set_opacity(0.7);
 	window.set_icon_from_file("mag.png");
 
-	Gtk::Frame frame;
-	window.add(frame);
+	Gtk::DrawingArea area;
+	window.add(area);
 
 	//run mousepos concurrently
 	thread t1(mousepos, &window);
