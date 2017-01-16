@@ -1,2 +1,2 @@
 # monocle
-A small Python magnification app for Linux
+A lightweight magnifying glass app written in vala
